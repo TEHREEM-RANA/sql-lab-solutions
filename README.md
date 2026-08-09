@@ -1,12 +1,8 @@
-# 🗄️ SQL Lab Vault
+🗄️ SQL Lab Vault
+Welcome to my SQL Lab Vault! This repository contains my hands-on database lab tasks, schema designs, and query solutions developed during my Database Management Systems (DBMS) lab coursework.
 
-Welcome to my **SQL Lab Vault**! This repository contains my hands-on database lab tasks, schema designs, and query solutions developed during my Database Management Systems (DBMS) lab coursework.
-
----
-
-## 📁 Repository Structure
-
-```text
+📁 Repository Structure
+Plaintext
 sql-lab-vault/
 ├── README.md
 ├── Lab-01-DDL-DML-Fundamentals/
@@ -69,5 +65,3 @@ Execute the script sequentially to initialize the database, insert sample record
 Database Platform: Microsoft SQL Server / T-SQL
 
 IDE: SQL Server Management Studio (SSMS)
-
-
