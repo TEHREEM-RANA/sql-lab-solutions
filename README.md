@@ -1,67 +1,50 @@
-🗄️ SQL Lab Vault
-Welcome to my SQL Lab Vault! This repository contains my hands-on database lab tasks, schema designs, and query solutions developed during my Database Management Systems (DBMS) lab coursework.
+# Database Management Systems – Semester 3 Learning Repository
 
-📁 Repository Structure
-Plaintext
+## 📂 Repository Overview
+This repository is my personal learning archive for **Database Management Systems (DBMS) Lab** during the **4th semester at UBIT, University of Karachi**. It contains all lab tasks, SQL scripts, and relational database exercises completed throughout the course.
+
+## 🎯 Purpose of This Repository
+* **SQL Query Mastery:** Write and optimize core DDL, DML, and complex JOIN queries[cite: 1, 2].
+* **Database Modeling:** Understand entity relationships (1:1, 1:N, N:M) and hierarchical schemas[cite: 2].
+* **Organized Reference:** Build a structured log of lab tasks and queries for technical interviews.
+
+## 🎓 Course Details
+* **University:** University of Karachi – UBIT (Department of Computer Science)  
+* **Course Name:** Database Management Systems (Lab)  
+* **Semester:** 4th Semester (2026)  
+* **Instructor:** Sir Haris bhatti 
+
+## 📊 Course Progress Tracker
+
+| Topic / Category | Key Concepts & Operations Covered | Status |
+| :--- | :--- | :--- |
+| **Data Definition Language (DDL)** | `CREATE`, `ALTER`, `DROP`, `TRUNCATE`, Schema Architecture Definition | ✅ Completed |
+| **Data Manipulation Language (DML)** | `INSERT`, `UPDATE`, `DELETE`, `SELECT`, Filtered Queries (`WHERE`) | ✅ Completed |
+| **Data Types & String Functions** | `VARCHAR`, `INT`, `DECIMAL`, `DATE`, `CONCAT()` | ✅ Completed |
+| **Data Formatting & Aliases** | Column Aliasing (`AS`), Unique Records Filtering (`DISTINCT`) | ✅ Completed |
+| **Relational Schemas & Constraints** | Primary Keys, Foreign Keys, Referential Integrity Enforcements | ✅ Completed |
+| **Basic & Outer JOIN Operations** | `INNER JOIN`, `LEFT OUTER JOIN`, `RIGHT OUTER JOIN`, `FULL OUTER JOIN` | ✅ Completed |
+| **Advanced Multi-Table Relationships** | Multi-Table Linkages (3-Way Joins), Self-Referential Joins (`SELF JOIN`)| ✅ Completed |
+
+## 📁 Repository Structure
+
+```text
 sql-lab-vault/
 ├── README.md
 ├── Lab-01-DDL-DML-Fundamentals/
-│   └── lab01_company_db.sql
+│   └── lab01.sql
 └── Lab-02-Relational-Schemas-And-Joins/
-    └── lab02_joins_and_relationships.sql
-🧪 Labs Overview
-📌 Lab 01: DDL & DML Fundamentals (Company Database)
-Focuses on core SQL operations including Database & Table creation, Data Insertion, Modifications, Data Filtering, Column Manipulations, and Cleanup operations.
+    └── lab02.sql
+```
+## 🛡️ License
+This repository is for educational purposes only. Codes are written for personal learning and academic documentation.
 
-Database Name: Company
+## 👤 Contributor
+**Name:** Tehreem Rana  
+**Program:** BS Software Engineering (BSSE) – Batch 2025  
+**LinkedIn:** [https://www.linkedin.com/in/tehreem22/](https://www.linkedin.com/in/tehreem22/)
 
-Key Topics Covered:
-
-DDL Commands: CREATE DATABASE, CREATE TABLE, ALTER TABLE, TRUNCATE TABLE, DROP TABLE, DROP DATABASE
-
-DML Commands: INSERT INTO, UPDATE (with conditional filtering), DELETE
-
-Data Querying: Filtering with WHERE, duplicate removal via DISTINCT, column aliasing (AS)
-
-String Operations: Data formatting using CONCAT() and string concatenation (+)
-
-📌 Lab 02: Relational Schemas & JOIN Operations (Lab2 Database)
-Focuses on relational entity modeling, primary & foreign key relationships, and implementing various SQL JOIN techniques.
-
-Database Name: Lab2
-
-Schemas Implemented:
-
-Sailors, Boats & Reserves System: Multi-table reservation tracking using INNER JOIN and condition filters (OR, ORDER BY).
-
-Department & Projects System: Handling optional attributes and unassigned entities using LEFT OUTER JOIN.
-
-University Management System: Modeling Many-to-Many (N:M) relationships using junction/bridge tables (Student_Course).
-
-Teacher Hierarchy: Self-referential relationship mapping using SELF JOIN.
-
-Key Topics Covered:
-
-Referential integrity with PRIMARY KEY and FOREIGN KEY constraints
-
-Multi-table INNER JOIN (up to 4 tables)
-
-LEFT OUTER JOIN for null handling
-
-SELF JOIN for internal reporting hierarchies
-
-🚀 How to Run
-Open SQL Server Management Studio (SSMS) or any preferred SQL IDE.
-
-Clone this repository:
-
-Bash
-git clone [https://github.com/your-username/sql-lab-vault.git](https://github.com/your-username/sql-lab-vault.git)
-Open the .sql file for the corresponding lab.
-
-Execute the script sequentially to initialize the database, insert sample records, and view query output.
-
-🛠️ Tools & Technologies
-Database Platform: Microsoft SQL Server / T-SQL
-
-IDE: SQL Server Management Studio (SSMS)
+## 📝 Notes
+* This repository is updated weekly following the DBMS lab curriculum.
+* Feel free to explore and give it a ⭐ if you like it!
+    
