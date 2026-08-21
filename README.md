@@ -1,4 +1,4 @@
-# Database Management Systems – Semester 3 Learning Repository
+# Database Management Systems – Semester 4 Learning Repository
 
 ## Repository Overview
 This repository is my personal learning archive for **Database Management Systems (DBMS) Lab** during the **3rd semester at UBIT, University of Karachi**. It contains all lab tasks, SQL scripts, and relational database exercises completed throughout the course.
@@ -11,7 +11,7 @@ This repository is my personal learning archive for **Database Management System
 ## Course Details
 * **University:** University of Karachi – UBIT (Department of Computer Science)
 * **Course Name:** Database Management Systems (Lab)
-* **Semester:** 3rd Semester (2026)
+* **Semester:** 4th Semester (2026)
 * **Instructor:** Sir Haris Bhatti
 
 ## Course Progress Tracker
